@@ -13,6 +13,16 @@ $border-color_1: #333333;
 
 /* manera correcta de hacer un menu responsive <3 */
 /* hasta aqui :* */
+@keyframes slidein {
+	from {
+		margin-left: 1200%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
 body {
 	background-color: $background-color_1;
 }
@@ -92,6 +102,8 @@ p {
 	display: flex;
 	border-radius: 100%;
 	margin-left: 1px;
+	animation-duration: 4s;
+	animation-name: slidein;
 }
 .btn-2 {
 	padding: 14px;
@@ -104,6 +116,8 @@ p {
 	display: flex;
 	border-radius: 100%;
 	margin-left: 1px;
+	animation-duration: 4s;
+	animation-name: slidein;
 }
 .btn-3 {
 	padding: 4px;
@@ -116,6 +130,8 @@ p {
 	display: flex;
 	border-radius: 100%;
 	margin-left: 1px;
+	animation-duration: 4s;
+	animation-name: slidein;
 }
 .btn-4 {
 	padding: 18px;
@@ -129,6 +145,8 @@ p {
 	display: flex;
 	border-radius: 100%;
 	margin-left: 1px;
+	animation-duration: 4s;
+	animation-name: slidein;
 }
 .btn-5 {
 	padding: 8px;
@@ -142,6 +160,8 @@ p {
 	display: flex;
 	border-radius: 100%;
 	margin-left: 1px;
+	animation-duration: 4s;
+	animation-name: slidein;
 }
 h2 {
 	margin-left: 20px;
@@ -199,7 +219,7 @@ li {
 	border: 2px outset;
 	margin-right: 40px;
 	margin-left: 100px;
-	background: rgb(0,255,127);
+	background: #F8FFE5;
 }
 .rectangulo6 {
 	margin-block-start: 8px;
@@ -208,7 +228,52 @@ li {
 	border: 2px outset;
 	margin-right: 40px;
 	margin-left: 100px;
-	background: #F8FFE5;
+	background: rgb(240,255,255);
+}
+.rectangulo7 {
+	margin-block-start: 8px;
+	height: 16px;
+	width: 100px;
+	border: 2px outset;
+	margin-right: 40px;
+	margin-left: 100px;
+	background: rgb(255,140,0);
+}
+.rectangulo8 {
+	margin-block-start: 8px;
+	height: 16px;
+	width: 100px;
+	border: 2px outset;
+	margin-right: 40px;
+	margin-left: 100px;
+	background: rgb(255,99,71);
+}
+.rectangulo9 {
+	margin-block-start: 8px;
+	height: 16px;
+	width: 100px;
+	border: 2px outset;
+	margin-right: 40px;
+	margin-left: 100px;
+	background: rgb(233,150,122);
+}
+.rectangulo10 {
+	margin-block-start: 8px;
+	height: 16px;
+	width: 100px;
+	border: 2px outset;
+	margin-right: 40px;
+	margin-left: 100px;
+	background: rgb(218,165,32);
+}
+.rectangulo11 {
+	margin-block-start: 8px;
+	height: 16px;
+	width: 100px;
+	border: 2px outset;
+	margin-right: 40px;
+	margin-left: 100px;
+	background: rgb(216,91,216);
 }
 hr {
 	color: $color_2;
@@ -246,7 +311,7 @@ footer {
 }
 @media only screen and (min-width: 0px) {
 	.Josker {
-		margin-left: 120px;
+		margin-left: 160px;
 		margin-block: 100px;
 		height: 320px;
 		border: azure solid 2px;
