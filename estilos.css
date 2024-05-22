@@ -1,14 +1,14 @@
 body{
-    background-color: black;
+    background-color: #1B4D3E;
 }
 *{
     color: snow;
-    background-color: #000;
+    background-color: #1B4D3E;
 }
 
 /* manera correcta de hacer un menu responsive <3 */
 .navbar {
-    background-color: black; /* Color de fondo de la barra de navegación */
+    background-color: #1B4D3E; /* Color de fondo de la barra de navegación */
     padding: 20px; /* Espacio de relleno interno de la barra de navegación */
 }
 nav{
@@ -185,7 +185,7 @@ li{
     border: 2px outset ;
     margin-right: 40px;
     margin-left: 100px;
-    background: rgb(0,0,0);
+    background: #1B4D3E;
 }
 .rectangulo2{
     margin-block-start: 8px;
@@ -280,6 +280,21 @@ li{
 
 hr{
     color: azure;
+}
+
+.p{
+    margin-left: 100px;
+    height: 20px;
+    text-align: start;
+    color: azure;
+}
+dt{
+    margin-left: 40px;
+}
+.navega{
+    text-decoration: none;
+    text-shadow: none;
+    color: #000;
 }
 
 footer{
