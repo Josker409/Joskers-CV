@@ -41,7 +41,6 @@ body {
 }
 * {
 	color: $color_1;
-	background-color: $background-color_1;
 }
 .navbar {
 	background-color: $background-color_1;
@@ -241,10 +240,28 @@ p {
 .texto {
 	margin-left: 40px;
 }
+.pe {
+	background-image: url(img/desk-3139127_1280.jpg);
+	display: grid;
+	box-sizing: border-box;
+	justify-items: center;
+	align-content: center;
+	background-size: cover;
+	height: 260px;
+}
+em {
+	font-size: 24px;
+}
+#columnas {
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 2px;
+}
 h2 {
 	margin-left: 20px;
 }
 li {
+	border-width: 10px;
 	color: $color_4;
 	margin-left: 40px;
 }
