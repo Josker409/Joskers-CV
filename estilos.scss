@@ -35,7 +35,7 @@ $border-color_1: #333333;
     } */
 /* p{
         transform: translateX(340px) rotate(-24deg);
-    } */
+        } */
 body {
 	background-color: $background-color_1;
 }
@@ -45,19 +45,20 @@ body {
 }
 .navbar {
 	background-color: $background-color_1;
-	padding: 20px;
+	padding: 2px;
 }
 nav {
 	position: fixed;
 }
 .navbar-brand {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bolder;
+	padding: 12px;
 	.logo {
 		color: $color_2;
 		text-align: left;
-		margin-right: 10px;
-		font-weight: 10px;
+		margin-right: 48px;
+		font-weight: 100px;
 		span {
 			color: $color_3;
 		}
@@ -65,7 +66,7 @@ nav {
 }
 .navbar-nav {
 	.nav-item {
-		margin: 0;
+		margin: 2px;
 	}
 	.nav-link {
 		color: $color_2;
@@ -79,14 +80,12 @@ nav {
 	border-color: $border-color_1;
 }
 .nav-item {
-	margin: 100px;
+	margin-left: 100px;
 }
 p {
-	margin-block-start: 30px;
 	text-align: center;
 	height: 20px;
 	width: 20px;
-	padding: 20px;
 	font-size: 24px;
 	margin-left: 10px;
 	margin-inline: 40px;
@@ -104,7 +103,7 @@ p {
 	margin-bottom: 20px;
 }
 .btn-1 {
-	padding: 1px;
+	padding: 8px;
 	padding-block: 24px;
 	color: $color_2;
 	background-color: $background-color_2;
@@ -147,7 +146,7 @@ p {
 	animation-name: slidein;
 }
 .btn-4 {
-	padding: 4px;
+	padding: 8px;
 	padding-block: 24px;
 	color: $color_2;
 	background-color: $background-color_5;
@@ -176,6 +175,72 @@ p {
 	animation-duration: 4s;
 	animation-name: slidein;
 }
+.cuadro {
+	width: 80px;
+	height: 80px;
+	background: none;
+	text-shadow: none;
+	text-decoration: none;
+}
+.btn-6 {
+	padding: 6px;
+	padding-block: 2px;
+	color: $color_2;
+	text-decoration: none;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	border-radius: 100%;
+	margin-left: 1px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+.btn-7 {
+	padding: 6px;
+	padding-block: 24px;
+	color: $color_2;
+	text-decoration: none;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	border-radius: 100%;
+	margin-left: 1px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+.btn-8 {
+	padding: 4px;
+	padding-block: 24px;
+	color: $color_2;
+	text-decoration: none;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	border-radius: 100%;
+	margin-left: 1px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+.btn-9 {
+	padding: 8px;
+	padding-block: 24px;
+	color: $color_2;
+	text-decoration: none;
+	text-shadow: none;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	border-radius: 100%;
+	margin-left: 1px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+.titulo {
+	color: $color_3;
+}
+.texto {
+	margin-left: 40px;
+}
 h2 {
 	margin-left: 20px;
 }
@@ -187,6 +252,8 @@ li {
 	margin-left: 40px;
 	height: 260px;
 	width: 260px;
+	height: 260px auto;
+	width: 260px auto;
 }
 .rectangulo1 {
 	margin-block-start: 8px;
@@ -293,6 +360,9 @@ li {
 hr {
 	color: $color_2;
 }
+h6 {
+	text-align: center;
+}
 .p {
 	margin-left: 100px;
 	height: 20px;
@@ -374,25 +444,50 @@ footer {
 @media only screen and (min-width: 793px) {
 	main {
 		text-align: center;
-		height: 160px;
+		height: 180px;
 	}
 	.Josker {
 		margin-left: 360px;
 		height: 360px;
 		border: azure solid 2px;
 	}
+	.titulo {
+		margin-left: 20px;
+	}
+	.texto {
+		margin-left: 60px;
+	}
 }
 @media only screen and (min-width: 993px) {
+	main {
+		text-align: center;
+		height: 160px;
+	}
 	.Josker {
 		margin-left: 460px;
 		height: 360px;
 		border: azure solid 2px;
 	}
+	.titulo {
+		margin-left: 40px;
+	}
+	.texto {
+		margin-left: 80px;
+	}
 }
 @media only screen and (min-width: 1160px) {
+	.autor {
+		margin-left: 100px;
+	}
 	.Josker {
 		margin-left: 600px;
 		height: 360px;
 		border: azure solid 2px;
+	}
+	.titulo {
+		margin-left: 60px;
+	}
+	.texto {
+		margin-left: 100px;
 	}
 }
