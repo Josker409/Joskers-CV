@@ -261,8 +261,8 @@ hr{
 }
 
 .autor{
-    height: 260px auto;
-    width: 260px auto;
+    height: 260px;
+    width: 260px;
 }
 h6{
     text-align: center;
